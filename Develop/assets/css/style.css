@@ -147,7 +147,7 @@ p {
 }
 /* ***** end of Benefits box */
 
-/* footer of the webpage, */
+/* *********footer of the webpage, */
 footer {
     padding: 30px;
     clear: both;
@@ -159,3 +159,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+/* *********end of footer */
