@@ -9,28 +9,28 @@ body {
     background-color: #d9dcd6;
 }
 
-/* start of Header layout of the website */
-.header {
+/********* start of Header layout of the website **/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-/* header font size*/
-.header h1 {
+
+/* header font size */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* "seo" at the header title of the website, is going to be of different color*/
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* placement of the  three hyperlinks on the top right of the page
         and displyed in the middle of the header */
-/* error found on the font family calibri, no '' placed correctly */
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,11 +38,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -52,7 +52,7 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-/* end of header layout of website */
+/********** end of header layout of website */
 
 /* font size of the paragraaphs set to 16px */
 p {
